@@ -1,0 +1,19 @@
+#skills {
+  display: grid;
+}
+
+#skills > * > ul {
+  list-style-position: inside;
+}
+
+#languages {
+  grid-column: 1;
+}
+
+#frameworks {
+  grid-column: 2;
+}
+
+#tools {
+  grid-column: 3;
+}

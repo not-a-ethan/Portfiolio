@@ -1,0 +1,28 @@
+nav {
+  width: 95%;
+  padding: 4px;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+}
+
+/* Makes the 3 links (anchor elements) nested with in the nav element dispaly equaly spaced */
+nav p {
+  display: inline-block;
+  width: 33%;
+  text-align: center;
+}
+
+.projectNav:hover~#projectListDropDown {
+  visibility: visible;
+  transition: 0.5s ease-in all;
+}
+
+#projectListDropDown {
+  visibility: hidden;
+  position: absolute;
+  left: 46.5%;
+  width: 6.5%;
+
+  border: 2px grey ridge;
+  background-color: rgb(7, 7, 145);
+}
