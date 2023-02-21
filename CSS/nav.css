@@ -10,6 +10,7 @@ nav p {
   display: inline-block;
   width: 33%;
   text-align: center;
+  font-size: initial;
 }
 
 .projectNav:hover~#projectListDropDown {

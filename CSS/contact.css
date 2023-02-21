@@ -1,0 +1,20 @@
+header > p {
+  font-size: 24px;
+}
+
+li {
+  list-style-type: none;
+  font-size: 21px;
+}
+
+li > img {
+  max-width: 30px;
+  max-height: 30px;
+}
+
+li > code {
+  background-color: rgb(39, 38, 38);
+  border-radius: 15%;
+  border-style: outset;
+  border-color: rgb(39, 38, 38);
+}
