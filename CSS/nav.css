@@ -13,12 +13,25 @@ nav p {
 }
 
 .projectNav:hover~#projectListDropDown {
+  opacity: 1;
   visibility: visible;
-  transition: 0.5s ease-in all;
+  transition: all 0.5s ease-in;
+}
+
+#projectListDropDown:hover {
+  opacity: 1;
+  transition: all 0.5s ease-in;
+  visibility: visible;
+}
+
+#projectListDropDown:not(:hover){
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.5s ease-out;
 }
 
 #projectListDropDown {
-  visibility: hidden;
+  opacity: 0;
   position: absolute;
   left: 46.5%;
   width: 6.5%;
