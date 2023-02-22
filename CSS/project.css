@@ -1,0 +1,34 @@
+.hidden {
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateX(-100%);
+  transition: all 1s;
+}
+
+.show {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateX(0);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hidden {
+    transition: none;
+  }
+}
+
+header > p {
+  max-width: 65%;
+  margin-left: 17.5%;
+  margin-right: 17.5%;
+}
+
+.projectLeft {
+  border-top-right-radius: 5%;
+  border-bottom-right-radius: 5%;
+}
+
+.projectRight {
+  border-top-left-radius: 5%;
+  border-bottom-left-radius: 5%;
+}
