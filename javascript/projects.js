@@ -1,6 +1,5 @@
 const observerLeft = new IntersectionObserver((entries) => {
   entries.forEach((entry) => {
-    console.log(entry)
     if (entry.isIntersecting) {
       entry.target.classList.add('showLeft')
     } else {
@@ -11,7 +10,6 @@ const observerLeft = new IntersectionObserver((entries) => {
 
 const observerRight = new IntersectionObserver((entries) => {
   entries.forEach((entry) => {
-    console.log(entry)
     if (entry.isIntersecting) {
       entry.target.classList.add('showRight')
     } else {
