@@ -1,5 +1,5 @@
 nav {
-  width: 95%;
+  width: 100%;
   padding: 4px;
   margin-left: 2.5%;
   margin-right: 2.5%;
@@ -8,7 +8,7 @@ nav {
 /* Makes the 3 links (anchor elements) nested with in the nav element dispaly equaly spaced */
 nav p {
   display: inline-block;
-  width: 33%;
+  width: 31vw;
   text-align: center;
   font-size: initial;
 }
@@ -51,5 +51,9 @@ nav p {
     transition: all 0.5s ease-in;
     width: fit-content;
     padding-right: 1.5%;
+  }
+
+  nav > p {
+    font-size: 2.5vw;
   }
 }
