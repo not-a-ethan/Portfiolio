@@ -14,7 +14,7 @@ I used HTML and CSS and JS to build this website. Some projects on the page are 
 
 ## Collaborators
 
-[I (Ethan)](https://github.com/ethan-master-coding) have worked on the site.
+[I (Ethan)]([https://github.com/ethan-master-coding](https://github.com/not-a-ethan/)) have worked on the site.
 
 ## License
 
