@@ -49,5 +49,7 @@ nav p {
     opacity: 1;
     visibility: visible;
     transition: all 0.5s ease-in;
+    width: fit-content;
+    padding-right: 1.5%;
   }
 }
