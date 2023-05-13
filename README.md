@@ -10,11 +10,11 @@ You can use the site my visteding it [here](https://ethan-master-coding.github.i
 
 ## Technologies
 
-I used HTML and CSS to build this webpage. Some projects on the page are made in JS.
+I used HTML and CSS and JS to build this website. Some projects on the page are made in JS.
 
 ## Collaborators
 
-[I (Ethan)](https://github.com/ethan-master-coding) and all these [people](https://github.com/ethan-master-coding/My-work/graphs/contributors) have worked on the site.
+[I (Ethan)](https://github.com/ethan-master-coding) have worked on the site.
 
 ## License
 
