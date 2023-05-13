@@ -6,7 +6,7 @@ This website is to show me and other people what I am able to do with programing
 
 ## How to use the site
 
-You can use the site my visteding it [here](https://ethan-master-coding.github.io/My-work/). Just scroll up and down and click on the links.
+You can use the site my visteding it [here](https://not-a-ethan.github.io/). Just scroll up and down and click on the links.
 
 ## Technologies
 
