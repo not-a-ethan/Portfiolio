@@ -13,7 +13,7 @@ main, header {
 }
 
 .italics {
-  font-style: italic; 
+  font-style: italic;
 }
 
 @media screen and (min-width: 600px) {
