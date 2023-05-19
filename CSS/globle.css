@@ -12,6 +12,10 @@ main, header {
   text-align: center;
 }
 
+.italics {
+  font-style: italic;
+}
+
 @media screen and (min-width: 600px) {
   main, header {
     max-width: 85%;
