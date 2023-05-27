@@ -42,7 +42,7 @@ img {
 
 .imgAndText {
   display: flex;
-  gap: 1%;
+  gap: 5%;
   padding: .8%;
   max-width: 15%;
 }
