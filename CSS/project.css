@@ -78,7 +78,7 @@ main > section > * > img {
 
   border-radius: 7.5%;
   justify-content: center;
-  align-items: center; 
+  align-items: center;
 
   display: inline-flex;
 
@@ -90,7 +90,7 @@ main > section > * > img {
   background-color: rgba(11, 3, 48, 0.7);
   transform: scale(.95);
   transition: all 0.3s ease-in-out;
-  
+
 }
 
 .gh-Button:not(:hover) {
