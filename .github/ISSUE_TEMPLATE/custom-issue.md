@@ -1,6 +1,6 @@
 ---
 name: Custom issue
-about: Title
+about: An issue thats not a bug reports
 title: ''
 labels: ''
 assignees: not-a-ethan
