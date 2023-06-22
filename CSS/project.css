@@ -49,6 +49,7 @@ main > section > * > img {
 .imgAndText {
   display: grid;
   grid-gap: 2%;
+  justify-content: center;
 }
 
 .imgAndText > * {
@@ -56,11 +57,54 @@ main > section > * > img {
 }
 
 .imgAndText > img {
+  justify-content: left;
   grid-column: 1;
   margin-left: 10%;
 }
 
-.imgAndText > p {
+.imgAndText > .textOrGhLink {
+  align-items: center;
+  text-align: center;
   grid-column: 2;
   max-width: 75%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.gh-Button {
+  background-color: rgba(11, 3, 48, 0.39);
+  width: 15vw;
+  height: fit-content;
+
+  border-radius: 7.5%;
+  justify-content: center;
+  align-items: center; 
+
+  display: inline-flex;
+
+  text-decoration: none;
+  font-size: 225%;
+}
+
+.gh-Button:hover {
+  background-color: rgba(11, 3, 48, 0.7);
+  transform: scale(.95);
+  transition: all 0.3s ease-in-out;
+  
+}
+
+.gh-Button:not(:hover) {
+  transform: scale(1);
+  transition: all 0.3s ease-in-out;
+}
+
+li.gh-Button {
+  font-size: 100%;
+}
+
+.gh-Button > img {
+  --max-size: 5vw;
+
+  max-width: var(--max-size);
+  max-height: var(--max-size);
 }
