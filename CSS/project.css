@@ -50,16 +50,34 @@ main > section > * > img {
   display: grid;
   grid-gap: 2%;
   justify-content: center;
+  grid-template-columns: 35% 65%;
 }
 
 .imgAndText > * {
   margin-bottom: 7.5%;
 }
 
-.imgAndText > img {
+.imgAndText > .img {
   justify-content: left;
   grid-column: 1;
   margin-left: 10%;
+  display: grid;
+  gap: 2%;
+}
+
+.imgAndText > .img > img {
+  border: 1px solid #292929;
+  grid-column: 1;
+}
+
+.imgAndText > .img > .techs {
+  grid-column: 2;
+}
+
+.imgAndText > .img > .techs > img {
+  --max-size: 25%;
+  max-width: var(--max-size);
+  max-height: var(--max-size);
 }
 
 .imgAndText > .textOrGhLink {
