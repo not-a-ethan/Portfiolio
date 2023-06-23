@@ -36,15 +36,20 @@
 }
 
 img {
-  max-width: 50px;
-  max-height: 50px;
+  --max-size: 120px;
+  max-width: var(--max-size);
+  max-height: var(--max-size);
 }
 
 .imgAndText {
   display: flex;
   gap: 5%;
   padding: .8%;
-  max-width: 15%;
+  max-width: 30%;
+}
+
+.imgAndText > div {
+  max-width: 70%;
 }
 
 .skill {
