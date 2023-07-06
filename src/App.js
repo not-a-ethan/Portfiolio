@@ -1,18 +1,18 @@
-import { RouterProvider, createBrowserRouter } from 'react-router-dom';
-import React from 'react';
+import "./CSS/globle.css";
+import "./CSS/nav.css";
+import "./CSS/home.css";
+import "./CSS/aboutMe.css";
+import "./CSS/projects.css";
+import "./CSS/contact.css";
 
-import Nav from './components/nav.js';
-import Home from './components/home.js';
-import About from './components/about.js';
-import Projects from './components/projects.js';
-import Contact from './components/contact.js';
+import React from "react";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
-import "./CSS/globle.css"
-import "./CSS/nav.css"
-import "./CSS/home.css"
-import "./CSS/aboutMe.css"
-import "./CSS/projects.css"
-import "./CSS/contact.css"
+import About from "./components/about.js";
+import Contact from "./components/contact.js";
+import Home from "./components/home.js";
+import Nav from "./components/nav.js";
+import Projects from "./components/projects.js";
 
 const router = createBrowserRouter([
   {
@@ -22,7 +22,7 @@ const router = createBrowserRouter([
         <Nav />
         <Home />
       </div>
-    )
+    ),
   },
   {
     path: "about-me",
@@ -31,7 +31,7 @@ const router = createBrowserRouter([
         <Nav />
         <About />
       </div>
-    )
+    ),
   },
   {
     path: "projects",
@@ -40,7 +40,7 @@ const router = createBrowserRouter([
         <Nav />
         <Projects />
       </div>
-    )
+    ),
   },
   {
     path: "contact",
@@ -49,14 +49,12 @@ const router = createBrowserRouter([
         <Nav />
         <Contact />
       </div>
-    )
-  }
-])
+    ),
+  },
+]);
 
 function App() {
-  return (
-    <RouterProvider router={router} />
-  );
+  return <RouterProvider router={router} />;
 }
 
 export default App;
