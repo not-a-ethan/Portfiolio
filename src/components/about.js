@@ -36,18 +36,7 @@ function About() {
       <h1>About Me </h1>
       <section>
         <p>
-          Hey, I'm Ethan! I'm a student that loves programming. I like making
-          websites, bots. I also like doing{" "}
-          <a href="https://replit.com/bounties">Replit Bounties</a> to get some
-          cycles.I'm an admin on{" "}
-          <a href="https://ask.replit.com">Replit Ask </a> and a moderator on{" "}
-          <a
-            href="https:/ /
-          replit.com "
-          >
-            Replit
-          </a>
-          . I'm currently in the East Coast of the United States.
+          Hey, I'm Ethan! I'm a student that loves programming. I like making websites, bots. I also like doing <a href="https://replit.com/bounties">Replit Bounties</a> to get some cycles.I'm an admin on <a href="https://ask.replit.com">Replit Ask </a> and a moderator on <a href="https://replit.com"> Replit</a>. I'm currently in the East Coast of the United States.
         </p>
       </section>
 
