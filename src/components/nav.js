@@ -8,13 +8,28 @@ function Nav() {
         <img id="myPfpNav" src="../images/pfp.png" alt="My pfp" />
       </NavLink>
       <p>
-        <NavLink to="https://not-a-ethan.github.io/about-me">ABOUT ME</NavLink>
+        <NavLink
+          to="https:/ / not - a -
+               ethan.github.io / about - me "
+        >
+          ABOUT ME
+        </NavLink>
       </p>
       <p>
-        <NavLink to="https://not-ethan.is-a.dev/projects">PROJECTS</NavLink>
+        <NavLink
+          to="https:/ / not - ethan.is -
+                 a.dev / projects "
+        >
+          PROJECTS
+        </NavLink>
       </p>
       <p>
-        <NavLink to="https://not-a-ethan.github.io/contact">CONTACT</NavLink>
+        <NavLink
+          to="https:/ / not - a -
+                 ethan.github.io / contact "
+        >
+          CONTACT
+        </NavLink>
       </p>
     </nav>
   );

@@ -47,12 +47,20 @@ function Projects() {
         <br />
         <p id="project-p-header-tag">
           Not all of my projects will be listed here. Only the greatest of them
-          will be. You can view all my projects on my{" "}
+          will be.You can view all my projects on my{" "}
           <a href="https://github.com/not-a-ethan?tab=repositories">
             Github Profile
           </a>
           . If you have any idea for what I should make feel free to suggest it
-          by <a href="https://not-ethan.is-a.dev/contact">contacting me</a>.
+          by{" "}
+          <a
+            href="https:/ /
+                      not -
+                  ethan.is - a.dev / contact "
+          >
+            contacting me
+          </a>
+          .
         </p>
       </header>
 
@@ -61,12 +69,13 @@ function Projects() {
           className="project-projectLeft project-hiddenRight"
           id="project-portfolio"
         >
-          <h2>My portfolio (this website)</h2>
-
+          {" "}
+          <h2>My portfolio(this website) </h2>
           <div className="project-imgAndText">
             <div className="project-img">
               <img
-                src="./images/portfolio.png"
+                src="./images /
+          portfolio.png "
                 alt="Screenshot of the Home page of this website"
               />
 
@@ -78,24 +87,26 @@ function Projects() {
                 <img
                   src="./images/skills/Javascript.png"
                   alt="JavaScript Logo"
-                />
+                />{" "}
               </div>
             </div>
 
             <div className="project-textOrGhLink">
               <p>
                 My protfolio website is this very site you are looking at right
-                now. This site contains my biggest projects and the ones I am
-                most proud of such as Coin Catalog. It also tells you and others
+                now.This site contains my biggest projects and the ones I am
+                most proud of such as Coin Catalog.It also tells you and others
                 how to contact me and a little about myself.
               </p>
 
               <a
                 className="project-gh-Button"
-                href="https://github.com/not-a-ethan/not-a-ethan.github.io"
+                href="https:/ /
+          github.com / not -
+      a - ethan / not - a - ethan.github.io "
               >
                 <img src="./images/githubLogo.png" alt="Github Logo" />
-                <pre> Github</pre>
+                <pre>Github</pre>
               </a>
             </div>
           </div>
@@ -124,16 +135,18 @@ function Projects() {
             <div className="project-textOrGhLink">
               <p>
                 Coin Catalog is an open sourse project I contribute and is the
-                sole maintainer of. It has info about coins from all through out
+                sole maintainer of .It has info about coins from all through out
                 American history and is constantly growing.
               </p>
 
               <a
                 className="project-gh-Button"
-                href="https://github.com/Coin-Catalog"
+                href="https:/ /
+          github.com / Coin -
+      Catalog "
               >
                 <img src="./images/githubLogo.png" alt="Github Logo" />
-                <pre> Github</pre>
+                <pre>Github</pre>
               </a>
             </div>
           </div>

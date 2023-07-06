@@ -39,10 +39,15 @@ function About() {
           Hey, I'm Ethan! I'm a student that loves programming. I like making
           websites, bots. I also like doing{" "}
           <a href="https://replit.com/bounties">Replit Bounties</a> to get some
-          cycles. I'm an admin on{" "}
-          <a href="https://ask.replit.com">Replit Ask</a> and a moderator on{" "}
-          <a href="https://replit.com">Replit</a>. I'm currently in the East
-          Coast of the United States.
+          cycles.I'm an admin on{" "}
+          <a href="https://ask.replit.com">Replit Ask </a> and a moderator on{" "}
+          <a
+            href="https:/ /
+          replit.com "
+          >
+            Replit
+          </a>
+          . I'm currently in the East Coast of the United States.
         </p>
       </section>
 
@@ -58,12 +63,12 @@ function About() {
         </p>
         <p>
           Then in 2021 I started again learned HTML, CSS and JS (not for webdev)
-          well. So I made some websites and then learned JS for front end
-          webdev.
+          well. So I made some websites and then learned JS for front end webdev
+          .
         </p>
         <p>
           Then learned about front end frame works and{" "}
-          <span className="italics">tried</span> learning React. Around a year
+          <span className="italics">tried</span>learning React.Around a year
           later I actualy learned it.
         </p>
         <p>
@@ -75,12 +80,13 @@ function About() {
       <hr />
 
       <section>
-        <h2>Skills</h2>
+        <h2>Skills </h2>
 
         <section className="about-projectLeft about-hiddenRight about-skill">
           <div className="about-imgAndText">
             <img
-              src="./images/skills/HTML.png"
+              src="./images /
+                  skills / HTML.png "
               alt="HTML logo"
               className="about-img"
             />
@@ -96,7 +102,8 @@ function About() {
         <section className="about-projectRight about-hiddenLeft about-skill">
           <div className="about-imgAndText">
             <img
-              src="./images/skills/CSS.png"
+              src="./images /
+                  skills / CSS.png "
               alt="CSS logo"
               className="about-img"
             />
@@ -112,7 +119,8 @@ function About() {
         <section className="about-projectLeft about-hiddenRight about-skill">
           <div className="about-imgAndText">
             <img
-              src="./images/skills/Javascript.png"
+              src="./images /
+                  skills / Javascript.png "
               alt="Javascript logo"
               className="about-img"
             />
@@ -132,7 +140,8 @@ function About() {
         <section className="about-projectRight about-hiddenLeft about-skill">
           <div className="about-imgAndText">
             <img
-              src="./images/skills/TypeScript.png"
+              src="./images /
+                  skills / TypeScript.png "
               alt="Typescript logo"
               className="about-img"
             />
@@ -148,7 +157,8 @@ function About() {
         <section className="about-projectLeft about-hiddenRight about-skill">
           <div className="about-imgAndText">
             <img
-              src="./images/skills/SQL.png"
+              src="./images /
+                  skills / SQL.png "
               alt="SQL logo"
               className="about-img"
             />
@@ -157,7 +167,7 @@ function About() {
               <h3>SQL</h3>
 
               <p>
-                <abbr title="Sequel or Structured Query Language">SQL</abbr> is
+                <abbr title="Sequel or Structured Query Language">SQL</abbr>is
                 used to interact with databses from reading to dbs to writing to
                 them.
               </p>
@@ -187,7 +197,8 @@ function About() {
         <section className="about-projectLeft about-hiddenRight about-skill">
           <div className="about-imgAndText">
             <img
-              src="./images/skills/Github.png"
+              src="./images /
+                  skills / Github.png "
               alt="Markdown logo"
               className="about-img"
             />

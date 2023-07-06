@@ -11,7 +11,13 @@ function Home() {
           front end of websites. I love helping others even more helping them
           get over road bumps they face when first learning! I am an Admin on{" "}
           <a href="https://ask.replit.com">Replit Ask</a> and a Moderator on{" "}
-          <a href="https://replit.com">Replit</a>.
+          <a
+            href="https:/ /
+                  replit.com "
+          >
+            Replit
+          </a>
+          .
         </p>
       </header>
 
@@ -20,7 +26,7 @@ function Home() {
       <main>
         <div id="home-skills">
           <div id="home-languages">
-            <h2>Languages</h2>
+            <h2>Languages </h2>
             <ul className="home-ul">
               <li>HTML/CSS</li>
               <li>JavaScript</li>

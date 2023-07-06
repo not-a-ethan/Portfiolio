@@ -23,7 +23,8 @@ function Contact() {
               alt="Discord logo"
               className="contact-image"
             />{" "}
-            Discord: <code className="contact-code">not_ethan.</code>
+            Discord:
+            <code className="contact-code">not_ethan.</code>
           </li>
           <li className="contact-li">
             <img
