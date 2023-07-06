@@ -1,13 +1,13 @@
-li {
+.contact-li {
   list-style-type: none;
 }
 
-li > img {
+.contact-li > .contact-image {
   max-width: 30px;
   max-height: 30px;
 }
 
-li > code {
+.contact-li > .contact-code {
   background-color: rgb(39, 38, 38);
   border-radius: 15%;
   border-style: outset;
