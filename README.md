@@ -6,11 +6,11 @@ This website is to show me and other people what I am able to do with programing
 
 ## How to use the site
 
-You can use the site my visteding it [here](https://not-a-ethan.github.io/). Just scroll up and down and click on the links.
+You can use the site my visiting it [here](https://not-a-ethan.github.io/). Just scroll up and down and click on the links.
 
 ## Technologies
 
-I used HTML and CSS and JS to build this website. Some projects on the page are made in JS.
+I used React and CSS to build this website. Some projects on the page are made in JS.
 
 ## Collaborators
 
