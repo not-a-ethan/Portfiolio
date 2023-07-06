@@ -1,31 +1,32 @@
-import React, { useEffect } from "react";
+import React, {useEffect} from "react";
 
 function Projects() {
   useEffect(() => {
     const observerLeftProject = new IntersectionObserver((entries) => {
       entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add('project-showLeft')
-        } else {
-          entry.target.classList.remove('project-showLeft')
-        }
+    if (entry.isIntersecting) {
+      entry.target.classList.add('project-showLeft')
+    } else {
+      entry.target.classList.remove('project-showLeft')
+    }
       })
     })
-    
-    const observerRightProject = new IntersectionObserver((entries) => {
-      entries.forEach((entry) => {
+
+  const observerRightProject = new IntersectionObserver(
+      (entries) => {entries.forEach((entry) => {
         if (entry.isIntersecting) {
           entry.target.classList.add('project-showRight')
         } else {
           entry.target.classList.remove('project-showRight')
         }
-      })
-    })
-    
-    const hiddentElementsLeftProject = document.querySelectorAll('.project-hiddenLeft')
-    hiddentElementsLeftProject.forEach((el) => observerLeftProject.observe(el))
-    
-    const hiddentElementsRightProject = document.querySelectorAll('.project-hiddenRight')
+      })})
+
+  const hiddentElementsLeftProject =
+      document.querySelectorAll('.project-hiddenLeft')
+  hiddentElementsLeftProject.forEach((el) => observerLeftProject.observe(el))
+
+  const hiddentElementsRightProject =
+      document.querySelectorAll('.project-hiddenRight')
     hiddentElementsRightProject.forEach((el) => observerRightProject.observe(el))
   });
 

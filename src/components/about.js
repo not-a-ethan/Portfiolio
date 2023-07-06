@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, {useEffect} from "react";
 
 function About() {
   useEffect(() => {
@@ -11,7 +11,7 @@ function About() {
         }
       });
     });
-    
+
     const observerRightAbout = new IntersectionObserver((entries) => {
       entries.forEach((entry) => {
         if (entry.isIntersecting) {
@@ -21,11 +21,13 @@ function About() {
         }
       });
     });
-    
-    const hiddentElementsLeftAbout = document.querySelectorAll(".about-hiddenLeft");
+
+    const hiddentElementsLeftAbout =
+        document.querySelectorAll(".about-hiddenLeft");
     hiddentElementsLeftAbout.forEach((el) => observerLeftAbout.observe(el));
-    
-    const hiddentElementsRightAbout = document.querySelectorAll(".about-hiddenRight");
+
+    const hiddentElementsRightAbout =
+        document.querySelectorAll(".about-hiddenRight");
     hiddentElementsRightAbout.forEach((el) => observerRightAbout.observe(el));
   });
 
