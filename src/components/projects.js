@@ -40,44 +40,18 @@ function Projects() {
       <header id="project-header">
         <h1>Projects</h1>
 
-        <p id="project-p-header-tag">
-          Here I will list my best projects I am most proud of. The list will be
-          in chronilogical order
-        </p>
+        <p id="project-p-header-tag">Here I will list my best projects I am most proud of. The list will be in chronilogical order</p>
         <br />
         <p id="project-p-header-tag">
-          Not all of my projects will be listed here. Only the greatest of them
-          will be.You can view all my projects on my{" "}
-          <a href="https://github.com/not-a-ethan?tab=repositories">
-            Github Profile
-          </a>
-          . If you have any idea for what I should make feel free to suggest it
-          by{" "}
-          <a
-            href="https:/ /
-                  not -
-              ethan.is - a.dev / contact "
-          >
-            contacting me
-          </a>
-          .
-        </p>
+          Not all of my projects will be listed here. Only the greatest of them will be.You can view all my projects on my <a href="https://github.com/not-a-ethan?tab=repositories">Github Profile</a>. If you have any idea for what I should make feel free to suggest it by <Link to="/contact">contacting me</Link>.</p>
       </header>
 
       <main id="project-main">
-        <section
-          className="project-projectLeft project-hiddenRight"
-          id="project-portfolio"
-        >
-          {" "}
+        <section className="project-projectLeft project-hiddenRight" id="project-portfolio">
           <h2>My portfolio(this website) </h2>
           <div className="project-imgAndText">
             <div className="project-img">
-              <img
-                src="./images /
-  portfolio.png "
-                alt="Screenshot of the Home page of this website"
-              />
+              <img src="./images/portfolio.png "alt="Screenshot of the Home page of this website"/>
 
               <div className="project-techs">
                 <img src="./images/skills/HTML.png" alt="HTML Logo" />
@@ -87,7 +61,7 @@ function Projects() {
                 <img
                   src="./images/skills/Javascript.png"
                   alt="JavaScript Logo"
-                />{" "}
+                />
               </div>
             </div>
 
@@ -99,12 +73,7 @@ function Projects() {
                 how to contact me and a little about myself.
               </p>
 
-              <a
-                className="project-gh-Button"
-                href="https:/ /
-          github.com / not -
-      a - ethan / not - a - ethan.github.io "
-              >
+              <a className="project-gh-Button" href="https://github.com/not-a-ethan/not-a-ethan.github.io">
                 <img src="./images/githubLogo.png" alt="Github Logo" />
                 <pre>Github</pre>
               </a>
@@ -139,12 +108,7 @@ function Projects() {
                 American history and is constantly growing.
               </p>
 
-              <a
-                className="project-gh-Button"
-                href="https:/ /
-          github.com / Coin -
-      Catalog "
-              >
+              <a className="project-gh-Button" href="https://github.com/Coin-Catalog">
                 <img src="./images/githubLogo.png" alt="Github Logo" />
                 <pre>Github</pre>
               </a>
