@@ -18,16 +18,18 @@ function Nav() {
       <p>
         <NavLink
           to="https:/ / not - ethan.is -
-                 a.dev / projects "
+  a.dev / projects "
         >
+          {" "}
           PROJECTS
         </NavLink>
       </p>
       <p>
         <NavLink
           to="https:/ / not - a -
-                 ethan.github.io / contact "
+  ethan.github.io / contact "
         >
+          {" "}
           CONTACT
         </NavLink>
       </p>

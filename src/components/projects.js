@@ -55,8 +55,8 @@ function Projects() {
           by{" "}
           <a
             href="https:/ /
-                      not -
-                  ethan.is - a.dev / contact "
+                  not -
+              ethan.is - a.dev / contact "
           >
             contacting me
           </a>
@@ -75,7 +75,7 @@ function Projects() {
             <div className="project-img">
               <img
                 src="./images /
-          portfolio.png "
+  portfolio.png "
                 alt="Screenshot of the Home page of this website"
               />
 

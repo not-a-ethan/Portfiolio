@@ -13,7 +13,7 @@ function Home() {
           <a href="https://ask.replit.com">Replit Ask</a> and a Moderator on{" "}
           <a
             href="https:/ /
-                  replit.com "
+          replit.com "
           >
             Replit
           </a>
