@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import {NavLink} from "react-router-dom";
 
 function Nav() {
   return (
@@ -17,21 +17,14 @@ function Nav() {
       </p>
       <p>
         <NavLink
-          to="https:/ / not - ethan.is -
-                 a.dev / projects "
-        >
-          PROJECTS
-        </NavLink>
-      </p>
-      <p>
-        <NavLink
-          to="https:/ / not - a -
-                 ethan.github.io / contact "
-        >
-          CONTACT
-        </NavLink>
-      </p>
-    </nav>
+  to = "https:/ / not - ethan.is -
+  a.dev / projects "
+      > PROJECTS</NavLink>
+      </p><p>< NavLink
+  to = "https:/ / not - a -
+  ethan.github.io / contact "
+      > CONTACT</NavLink>
+      </p>< /nav>
   );
 }
 
