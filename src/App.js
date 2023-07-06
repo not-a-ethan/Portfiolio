@@ -6,7 +6,7 @@ import "./CSS/projects.css";
 import "./CSS/contact.css";
 
 import React from "react";
-import {createBrowserRouter, RouterProvider} from "react-router-dom";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 import About from "./components/about.js";
 import Contact from "./components/contact.js";
