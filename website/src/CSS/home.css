@@ -1,19 +1,19 @@
-#skills {
+#home-skills {
   display: grid;
 }
 
-#skills > * > ul {
+#home-skills > * > .home-ul {
   list-style-position: inside;
 }
 
-#languages {
+#home-languages {
   grid-column: 1;
 }
 
-#frameworks {
+#home-frameworks {
   grid-column: 2;
 }
 
-#tools {
+#home-tools {
   grid-column: 3;
 }
