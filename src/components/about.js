@@ -84,12 +84,7 @@ function About() {
 
         <section className="about-projectLeft about-hiddenRight about-skill">
           <div className="about-imgAndText">
-            <img
-              src="./images /
-                  skills / HTML.png "
-              alt="HTML logo"
-              className="about-img"
-            />
+            <img src="./images/skills/ HTML.png " alt="HTML logo" className="about-img" />
 
             <div>
               <h3>HTML</h3>
@@ -101,12 +96,7 @@ function About() {
 
         <section className="about-projectRight about-hiddenLeft about-skill">
           <div className="about-imgAndText">
-            <img
-              src="./images /
-                  skills / CSS.png "
-              alt="CSS logo"
-              className="about-img"
-            />
+            <img src="./images/skills/CSS.png" alt="CSS logo" className="about-img" />
 
             <div>
               <h3>CSS</h3>
@@ -118,12 +108,7 @@ function About() {
 
         <section className="about-projectLeft about-hiddenRight about-skill">
           <div className="about-imgAndText">
-            <img
-              src="./images /
-                  skills / Javascript.png "
-              alt="Javascript logo"
-              className="about-img"
-            />
+            <img src="./images/skills /Javascript.png" alt="Javascript logo" className="about-img" />
 
             <div>
               <h3>Javascript</h3>
@@ -139,12 +124,7 @@ function About() {
 
         <section className="about-projectRight about-hiddenLeft about-skill">
           <div className="about-imgAndText">
-            <img
-              src="./images /
-                  skills / TypeScript.png "
-              alt="Typescript logo"
-              className="about-img"
-            />
+            <img src="./images/skills/TypeScript.png" alt="Typescript logo" className="about-img" />
 
             <div>
               <h3>TypeScript</h3>
@@ -156,12 +136,7 @@ function About() {
 
         <section className="about-projectLeft about-hiddenRight about-skill">
           <div className="about-imgAndText">
-            <img
-              src="./images /
-                  skills / SQL.png "
-              alt="SQL logo"
-              className="about-img"
-            />
+            <img src="./images/skills/SQL.png" alt="SQL logo" className="about-img" />
 
             <div>
               <h3>SQL</h3>
@@ -177,11 +152,7 @@ function About() {
 
         <section className="about-projectRight about-hiddenLeft about-skill">
           <div className="about-imgAndText">
-            <img
-              src="./images/skills/React.png"
-              alt="React logo"
-              className="about-img"
-            />
+            <img src="./images/skills/React.png" alt="React logo" className="about-img" />
 
             <div>
               <h3>React</h3>
@@ -196,12 +167,7 @@ function About() {
 
         <section className="about-projectLeft about-hiddenRight about-skill">
           <div className="about-imgAndText">
-            <img
-              src="./images /
-                  skills / Github.png "
-              alt="Markdown logo"
-              className="about-img"
-            />
+            <img src="./images/skills/Github.png" alt="Markdown logo" className="about-img" />
 
             <div>
               <h3>Github</h3>
