@@ -84,7 +84,7 @@ function About() {
 
         <section className="about-projectLeft about-hiddenRight about-skill">
           <div className="about-imgAndText">
-            <img src="./images/skills/ HTML.png " alt="HTML logo" className="about-img" />
+            <img src="./images/skills/HTML.png" alt="HTML logo" className="about-img" />
 
             <div>
               <h3>HTML</h3>
@@ -108,7 +108,7 @@ function About() {
 
         <section className="about-projectLeft about-hiddenRight about-skill">
           <div className="about-imgAndText">
-            <img src="./images/skills /Javascript.png" alt="Javascript logo" className="about-img" />
+            <img src="./images/skills/Javascript.png" alt="Javascript logo" className="about-img" />
 
             <div>
               <h3>Javascript</h3>
