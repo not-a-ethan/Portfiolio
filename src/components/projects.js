@@ -74,7 +74,7 @@ function Projects() {
                 how to contact me and a little about myself.
               </p>
 
-              <a className="project-gh-Button" href="https://github.com/not-a-ethan/not-a-ethan.github.io">
+              <a className="project-gh-Button" href="https://github.com/not-a-ethan/Portfiolio">
                 <img src="./images/githubLogo.png" alt="Github Logo" />
                 <pre>Github</pre>
               </a>
