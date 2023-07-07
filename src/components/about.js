@@ -36,7 +36,7 @@ function About() {
       <h1>About Me </h1>
       <section>
         <p>
-          Hey, I'm Ethan! I'm a student that loves programming. I like making websites, bots. I also like doing <a href="https://replit.com/bounties">Replit Bounties</a> to get some cycles.I'm an admin on <a href="https://ask.replit.com">Replit Ask </a> and a moderator on <a href="https://replit.com"> Replit</a>. I'm currently in the East Coast of the United States.
+          Hey, I'm Ethan! I'm a student that loves programming. I like making websites and bots. I also like doing <a href="https://replit.com/bounties">Replit Bounties</a> to get some cycles.I'm an admin on <a href="https://ask.replit.com">Replit Ask </a> and a moderator on <a href="https://replit.com"> Replit</a>. I'm currently in the East Coast of the United States.
         </p>
       </section>
 
@@ -44,26 +44,13 @@ function About() {
 
       <section>
         <h2>My Programming Journey ➡️</h2>
-        <p>
-          I started in January 2020 to make a website. I started with
-          Javascript. Back then I thought "true programers" used binary and
-          every lanuge can do everything the same. So I learned up to
-          conditinals or so and gave up since lock down happend.
-        </p>
-        <p>
-          Then in 2021 I started again learned HTML, CSS and JS (not for webdev)
-          well. So I made some websites and then learned JS for front end webdev
-          .
-        </p>
-        <p>
-          Then learned about front end frame works and{" "}
-          <span className="italics">tried</span>learning React.Around a year
-          later I actualy learned it.
-        </p>
-        <p>
-          Then now a days I am learning SQL as part of my journey of learning
-          Back End web developer.
-        </p>
+        <p>I started in January 2020 to make a website for something in real life. I started with Javascript. Back then I thought "true programers" used binary and every lanuge can do everything the same. So I learned up to conditinals or so and gave up since lock down happend.</p>
+
+        <p>Then in 2021 I started again learned HTML, CSS and JS (not for webdev) well. So I made some websites and then learned JS for front end webdev.</p>
+
+        <p>Then learned about front end frame works and <span className="italics">tried</span>learning React. Around a year later I actualy learned it.</p>
+
+        <p>Then now a days I am learning SQL as part of my journey of learning Back End web developer.</p>
       </section>
 
       <hr />
