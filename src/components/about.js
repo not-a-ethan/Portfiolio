@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, {useEffect} from "react";
 
 function About() {
   useEffect(() => {
@@ -23,11 +23,11 @@ function About() {
     });
 
     const hiddentElementsLeftAbout =
-      document.querySelectorAll(".about-hiddenLeft");
+        document.querySelectorAll(".about-hiddenLeft");
     hiddentElementsLeftAbout.forEach((el) => observerLeftAbout.observe(el));
 
     const hiddentElementsRightAbout =
-      document.querySelectorAll(".about-hiddenRight");
+        document.querySelectorAll(".about-hiddenRight");
     hiddentElementsRightAbout.forEach((el) => observerRightAbout.observe(el));
   });
 
@@ -120,43 +120,44 @@ function About() {
               <p>
                 <abbr title="Sequel or Structured Query Language">SQL</abbr>is
                 used to interact with databses from reading to dbs to writing to
-                them.
-              </p>
-            </div>
-          </div>
+  them.</p>
+            </div></div>
         </section>
 
-        <section className="about-projectRight about-hiddenLeft about-skill">
-          <div className="about-imgAndText">
-            <img src="./images/skills/React.png" alt="React logo" className="about-img" />
+      <section className = "about-projectRight about-hiddenLeft about-skill">
+      <div className = "about-imgAndText">
+      <img src = "./images/skills/React.png" alt = "React logo" className =
+           "about-img" />
 
-            <div>
-              <h3>React</h3>
+      <div><h3>React<
+          /h3>
 
               <p>
                 React is a Front end web framework and could be used full stack
                 with another frame woork like Next.js or Remix.
               </p>
-            </div>
+      </div>
           </div>
-        </section>
+      </section>
 
         <section className="about-projectLeft about-hiddenRight about-skill">
           <div className="about-imgAndText">
-            <img src="./images/skills/Github.png" alt="Markdown logo" className="about-img" />
+            <img src="./images /
+               skills / Github.png " alt=" Markdown logo " className=" about -
+           img " />
 
-            <div>
-              <h3>Github</h3>
+       < div>
+      <h3>Github<
+          /h3>
 
               <p>
                 Github is version control in the web that uses Git. It is also
                 used to host code and open sourse projects.
               </p>
-            </div>
+      </div>
           </div>
-        </section>
       </section>
-    </main>
+      </section>< /main>
   );
 }
 
