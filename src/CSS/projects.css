@@ -135,3 +135,23 @@ li.project-gh-Button {
   max-width: var(--max-size);
   max-height: var(--max-size);
 }
+
+@media only screen and (max-width: 600px) {
+  .project-img {
+    display: none !important;
+  }
+
+  .project-imgAndText {
+    display: block !important;
+  }
+
+  .project-imgAndText > .project-textOrGhLink {
+    max-width: 90% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+
+  .project-gh-Button {
+    width: 22.5vw !important;
+  }
+}
