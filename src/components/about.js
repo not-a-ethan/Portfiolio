@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import Skill from "./about/skill.js";
 
 function About() {
   useEffect(() => {
@@ -58,103 +59,20 @@ function About() {
       <section>
         <h2>Skills </h2>
 
-        <section className="about-projectLeft about-hiddenRight about-skill">
-          <div className="about-imgAndText">
-            <img src="./images/skills/HTML.png" alt="HTML logo" className="about-img" />
+        <Skill side="right" imgPath="./images/skills/HTML.png" imgAlt="HTML logo" title="HTML" description="HTML is the a languge to build the front end of a webpage." />
 
-            <div>
-              <h3>HTML</h3>
+        <Skill side="left" imgPath="./images/skills/CSS.png" imgAlt="CSS logo" title="CSS" description="CSS is used to style HTML to make it look good." />
 
-              <p>HTML is the a languge to build the front end of a webpage.</p>
-            </div>
-          </div>
-        </section>
+        <Skill side="right" imgPath="./images/skills/Javascript.png" imgAlt="Javascript logo" title="Javascript" description="Javascript can be used for almsot anything. It is used to make HTML interactive, the backend of a website or just about anything." />
 
-        <section className="about-projectRight about-hiddenLeft about-skill">
-          <div className="about-imgAndText">
-            <img src="./images/skills/CSS.png" alt="CSS logo" className="about-img" />
+        <Skill side="left" imgPath="./images/skills/TypeScript.png" imgAlt="Typescript logo" title="TypeScript" description="Javascript but with declared types" />
 
-            <div>
-              <h3>CSS</h3>
+        <Skill side="right" imgPath="./images/skills/SQL.png" imgAlt="SQL logo" title="SQL" description={<abbr title="Sequel or Structured Query Language">SQL</abbr> + " is used to interact with databses from reading to dbs to writing to them."} />
 
-              <p>CSS is used to style HTML to make it look good.</p>
-            </div>
-          </div>
-        </section>
+        <Skill side="left" imgPath="./images/skills/React.png" imgAlt="React logo" title="React" description="React is a Front end web framework and could be used full stack with another frame woork like Next.js or Remix." />
 
-        <section className="about-projectLeft about-hiddenRight about-skill">
-          <div className="about-imgAndText">
-            <img src="./images/skills/Javascript.png" alt="Javascript logo" className="about-img" />
-
-            <div>
-              <h3>Javascript</h3>
-
-              <p>
-                Javascript can be used for almsot anything. It is used to make
-                HTML interactive, the backend of a website or just about
-                anything.
-              </p>
-            </div>
-          </div>
-        </section>
-
-        <section className="about-projectRight about-hiddenLeft about-skill">
-          <div className="about-imgAndText">
-            <img src="./images/skills/TypeScript.png" alt="Typescript logo" className="about-img" />
-
-            <div>
-              <h3>TypeScript</h3>
-
-              <p>Javascript but with declared types</p>
-            </div>
-          </div>
-        </section>
-
-        <section className="about-projectLeft about-hiddenRight about-skill">
-          <div className="about-imgAndText">
-            <img src="./images/skills/SQL.png" alt="SQL logo" className="about-img" />
-
-            <div>
-              <h3>SQL</h3>
-
-              <p>
-                <abbr title="Sequel or Structured Query Language">SQL</abbr>is
-                used to interact with databses from reading to dbs to writing to
-                them.
-              </p>
-            </div>
-          </div>
-        </section>
-
-        <section className="about-projectRight about-hiddenLeft about-skill">
-          <div className="about-imgAndText">
-            <img src="./images/skills/React.png" alt="React logo" className="about-img" />
-
-            <div>
-              <h3>React</h3>
-
-              <p>
-                React is a Front end web framework and could be used full stack
-                with another frame woork like Next.js or Remix.
-              </p>
-            </div>
-          </div>
-        </section>
-
-        <section className="about-projectLeft about-hiddenRight about-skill">
-          <div className="about-imgAndText">
-            <img src="./images/skills/Github.png" alt="Markdown logo" className="about-img" />
-
-            <div>
-              <h3>Github</h3>
-
-              <p>
-                Github is version control in the web that uses Git. It is also
-                used to host code and open sourse projects.
-              </p>
-            </div>
-          </div>
-        </section>
+        <Skill side="right" imgPath="./images/skills/Github.png" imgAlt="Github logo" title="Github" description="Github is version control in the web that uses Git. It is also used to host code and open sourse projects." />
+        
       </section>
     </main>
   );
