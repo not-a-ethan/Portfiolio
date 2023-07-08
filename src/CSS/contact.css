@@ -1,10 +1,10 @@
 .contact-li {
   list-style-type: none;
+  max-height: 2.75vh;
 }
 
-.contact-li > .contact-image {
-  max-width: 30px;
-  max-height: 30px;
+.contact-image {
+  height: 2.5vh;
 }
 
 .contact-li > .contact-code {
