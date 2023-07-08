@@ -36,9 +36,7 @@ function About() {
     <main id="about">
       <h1>About Me </h1>
       <section>
-        <p>
-          Hey, I'm Ethan! I'm a student that loves programming. I like making websites and bots. I also like doing <a href="https://replit.com/bounties">Replit Bounties</a> to get some cycles.I'm an admin on <a href="https://ask.replit.com">Replit Ask </a> and a moderator on <a href="https://replit.com"> Replit</a>. I'm currently in the East Coast of the United States.
-        </p>
+        <p>Hey, I'm Ethan! I'm a student that loves programming. I like making websites and bots. I also like doing <a href="https://replit.com/bounties">Replit Bounties</a> to get some cycles.I'm an admin on <a href="https://ask.replit.com">Replit Ask </a> and a moderator on <a href="https://replit.com"> Replit</a>. I'm currently in the East Coast of the United States.</p>
       </section>
 
       <hr />
@@ -59,19 +57,60 @@ function About() {
       <section>
         <h2>Skills </h2>
 
-        <Skill side="right" imgPath="./images/skills/HTML.png" imgAlt="HTML logo" title="HTML" description="HTML is the a languge to build the front end of a webpage." />
+        <Skill 
+          side="right" 
+          imgPath="./images/skills/HTML.png" 
+          imgAlt="HTML logo" 
+          title="HTML" 
+          description="HTML is the a languge to build the front end of a webpage." 
+        />
 
-        <Skill side="left" imgPath="./images/skills/CSS.png" imgAlt="CSS logo" title="CSS" description="CSS is used to style HTML to make it look good." />
+        <Skill 
+          side="left" 
+          imgPath="./images/skills/CSS.png" 
+          imgAlt="CSS logo" 
+          title="CSS" 
+          description="CSS is used to style HTML to make it look good." 
+        />
 
-        <Skill side="right" imgPath="./images/skills/Javascript.png" imgAlt="Javascript logo" title="Javascript" description="Javascript can be used for almsot anything. It is used to make HTML interactive, the backend of a website or just about anything." />
+        <Skill 
+          side="right" 
+          imgPath="./images/skills/Javascript.png" 
+          imgAlt="Javascript logo" 
+          title="Javascript" 
+          description="Javascript can be used for almsot anything. It is used to make HTML interactive, the backend of a website or just about anything." 
+        />
 
-        <Skill side="left" imgPath="./images/skills/TypeScript.png" imgAlt="Typescript logo" title="TypeScript" description="Javascript but with declared types" />
+        <Skill 
+          side="left" 
+          imgPath="./images/skills/TypeScript.png" 
+          imgAlt="Typescript logo" title="TypeScript"
+          description="Javascript but with declared types" 
+         />
 
-        <Skill side="right" imgPath="./images/skills/SQL.png" imgAlt="SQL logo" title="SQL" description={<abbr title="Sequel or Structured Query Language">SQL</abbr> + " is used to interact with databses from reading to dbs to writing to them."} />
+        <Skill 
+          side="right" 
+          imgPath="./images/skills/SQL.png" 
+          imgAlt="SQL logo" 
+          title="SQL" 
+          description="SQL is used to interact with databses from reading to dbs to writing to them."
+        />
 
-        <Skill side="left" imgPath="./images/skills/React.png" imgAlt="React logo" title="React" description="React is a Front end web framework and could be used full stack with another frame woork like Next.js or Remix." />
+        <Skill 
+          side="left" 
+          imgPath="./images/skills/React.png" 
+          imgAlt="React logo" 
+          title="React" 
+          description="React is a Front end web framework and could be used full stack with another frame woork like Next.js or Remix." 
+        />
 
-        <Skill side="right" imgPath="./images/skills/Github.png" imgAlt="Github logo" title="Github" description="Github is version control in the web that uses Git. It is also used to host code and open sourse projects." />
+        <Skill 
+          side="right" 
+          imgPath="./images/skills/Github.png" 
+          imgAlt="Github logo" 
+          title="Github" 
+          description="Github is version control in the web that uses Git. It is also used to host code and open sourse projects."
+        />
         
       </section>
     </main>
