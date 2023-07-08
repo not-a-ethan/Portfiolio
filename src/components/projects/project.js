@@ -25,19 +25,31 @@ function Project(props) {
   props.projectTechs.forEach((tech) => {
     if (tech === 'html') {
       projectTechs.push(
-        <img src="./images/skills/HTML.png" alt="HTML Logo" key="html" />
+        <>
+          <img src="./images/skills/HTML.png" alt="HTML Logo" key="html" /> 
+          <br />
+        </>
       );
     } else if (tech === 'css') {
       projectTechs.push(
-        <img src="./images/skills/CSS.png" alt="CSS Logo" key="css" />
+        <>
+          <img src="./images/skills/CSS.png" alt="CSS Logo" key="css" />
+          <br />
+        </>
       );
     } else if (tech === 'js') {
       projectTechs.push(
-        <img src="./images/skills/Javascript.png" alt="JavaScript Logo" key="js" />
+        <>
+          <img src="./images/skills/JS.png" alt="JS Logo" key="js" />
+          <br />
+        </>
       );
     } else if (tech === 'react') {
       projectTechs.push(
-        <img src="./images/skills/React.png" alt="React Logo" key="react" />
+        <>
+          <img src="./images/skills/React.png" alt="React Logo" key="react" />
+          <br />
+        </>
       );
     }
   });
