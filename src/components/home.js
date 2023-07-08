@@ -2,7 +2,7 @@ import React from "react";
 
 function Home() {
   return (
-    <div>
+    <>
       <header>
         <h1>Ethan's Portfolio</h1>
 
@@ -38,7 +38,7 @@ function Home() {
           </div>
         </div>
       </main>
-    </div>
+    </>
   );
 }
 
