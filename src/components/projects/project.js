@@ -59,7 +59,7 @@ function Project(props) {
         <div className="project-textOrGhLink">
           <p>{props.projectText}</p>
 
-          <a className="project-gh-Button" href={projectGhLink}>
+          <a className="project-gh-Button" href={props.projectGhLink}>
             <img src="./images/githubLogo.png" alt="Github Logo" />
             <pre>Github</pre>
           </a>
