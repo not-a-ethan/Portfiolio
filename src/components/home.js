@@ -22,7 +22,7 @@ function Home() {
             </ul>
           </div>
           <div id="home-frameworks">
-            <h2>Frameworks</h2>
+            <h2>Frameworks/Libraries</h2>
             <ul className="home-ul">
               <li>BootStrap</li>
               <li>React</li>
