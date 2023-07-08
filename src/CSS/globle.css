@@ -14,16 +14,17 @@ a {
 
 main, header {
   text-align: center;
+  max-width: 85%;
+  margin-left: 7.5%;
+  margin-right: 7.5%;
 }
 
 .italics {
   font-style: italic;
 }
 
-@media screen and (min-width: 600px) {
-  main, header {
-    max-width: 85%;
-    margin-left: 7.5%;
-    margin-right: 7.5%;
+@media only screen and (max-width: 600px) {
+  * {
+    font-size: 0.9rem;
   }
 }
