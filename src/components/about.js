@@ -111,6 +111,14 @@ function About() {
           title="Github" 
           description="Github is version control in the web that uses Git. It is also used to host code and open sourse projects."
         />
+
+        <Skill
+          side="left"
+          imgPath="./images/skills/GH-actions.png"
+          imgAlt="Github Actions logo"
+          title="Github Actions"
+          description="Github Actions is used to automate things like testing, building and deploying."
+        />
         
       </section>
     </main>
