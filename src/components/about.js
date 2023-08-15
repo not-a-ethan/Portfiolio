@@ -119,7 +119,14 @@ function About() {
           title="Github Actions"
           description="Github Actions is used to automate things like testing, building and deploying."
         />
-        
+
+        <Skill
+          side="right"
+          imgPath="./images/skills/Nextjs Logo.png"
+          imgAlt="Next.js logo"
+          title="Next.js"
+          description="Next.js is a full stack web framework that uses React."
+        />
       </section>
     </main>
   );
