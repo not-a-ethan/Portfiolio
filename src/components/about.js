@@ -122,7 +122,7 @@ function About() {
 
         <Skill
           side="right"
-          imgPath="./images/skills/nextjs Logo.png"
+          imgPath="./images/skills/Nextjs Logo.png"
           imgAlt="Next.js logo"
           title="Next.js"
           description="Next.js is a full stack web framework that uses React."
