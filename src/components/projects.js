@@ -65,7 +65,7 @@ function Projects() {
           projectTitle="Coin Catalog" 
           projectText="Coin Catalog is an open sourse project about Coins from through out U.S. history. I am constantly adding more coins and it will never stop growing. I made it and I am also the soul maintainer of the project." 
           projectGhLink="https://github.com/Coin-Catalog" 
-          projectTechs={["next"]} 
+          projectTechs={["next", "css"]} 
           side="left" 
         />
       </main>
