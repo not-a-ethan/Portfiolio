@@ -51,10 +51,17 @@ function Project(props) {
           <br />
         </>
       );
+    } else if (tech === 'next') {
+      projectTechs.push(
+        <>
+          <img src="./images/skills/Nextjs.png" alt="Next Logo" key="next" />
+          <br />
+        </>
+      )
     }
   });
 
-
+  console.log(projectTechs)
 
   return (
     <section className={cssTransitionClassNames} id="project-portfolio">

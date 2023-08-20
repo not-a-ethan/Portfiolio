@@ -63,9 +63,9 @@ function Projects() {
           projectImgPath="./images/coinCatalogProject.png" 
           projectImgAlt="A screenshot from the home page of Coincatalog" 
           projectTitle="Coin Catalog" 
-          projectText="Coin Catalog is an open sourse project I contribute and is the sole maintainer of .It has info about coins from all through out American history and is constantly growing." 
+          projectText="Coin Catalog is an open sourse project about Coins from through out U.S. history. I am constantly adding more coins and it will never stop growing. I made it and I am also the soul maintainer of the project." 
           projectGhLink="https://github.com/Coin-Catalog" 
-          projectTechs={["html", "css"]} 
+          projectTechs={["next", "css"]} 
           side="left" 
         />
       </main>
