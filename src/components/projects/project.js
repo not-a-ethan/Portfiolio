@@ -51,6 +51,11 @@ function Project(props) {
           <br />
         </>
       );
+    } else if (tech === "next" ) {
+      <>
+        <img src="./images/skills/Nextjs.png" alt="Next Logo" key="next" />
+        <br />
+      </>
     }
   });
 
