@@ -13,14 +13,7 @@ function Project(props) {
     side (left or right)
   */
  
-  const cssTransitionClassNames = []
   const projectTechs = []
-
-  if (props.side === "left") {
-    cssTransitionClassNames.push("project-projectRight project-hiddenLeft")
-  } else if (props.side === "right") {
-    cssTransitionClassNames.push("project-projectLeft project-hiddenRight")
-  }
 
   props.projectTechs.forEach((tech) => {
     if (tech === 'html') {
@@ -63,8 +56,32 @@ function Project(props) {
 
   console.log(projectTechs)
 
+
   return (
-    <section className={cssTransitionClassNames} id="project-portfolio">
+    <section className="project">
+      <div className='project-img'>
+        <img src={props.projectImgPath} alt={props.projectImgAlt} />
+      </div>
+
+      <div className='project-text'>
+        <h2 className='secondary-text'>
+          {props.projectTitle}
+        </h2>
+
+        <p>
+          {props.projectText}
+        </p>
+      </div>
+
+      <div className='project-techs'>
+        {projectTechs}
+      </div>
+    </section>
+  )
+
+  /*
+  return (
+    <section id="project-portfolio">
       <h2>{props.projectTitle}</h2>
       <div className="project-imgAndText">
         <div className="project-img">
@@ -86,6 +103,7 @@ function Project(props) {
       </div>
     </section>
   )
+  */
 }
 
 export default Project

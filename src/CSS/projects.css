@@ -1,0 +1,33 @@
+.project {
+  display: grid;
+  gap: 2vw;
+
+  padding-bottom: 3vh;
+
+  height: 20vh;
+}
+
+.project-img {
+  grid-column: 1;
+  aspect-ratio: 21 / 16;
+
+  border-radius: 20px;
+
+  overflow: hidden;
+  box-shadow: 10px 15px 20px #234f56;
+}
+
+.project-text {
+  grid-column: 2;
+}
+
+.project-techs {
+  grid-column: 3;
+}
+
+.project-techs > img {
+  max-width: 5vw;
+  max-height: 5vw;
+
+  aspect-ratio: 1 / 1;
+}
