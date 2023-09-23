@@ -58,7 +58,7 @@ function Home() {
         </div>
 
         <div className="row-one column-three gridItem hidden">
-          <Skill skillName="JavaScript" skillImgPath="./images/skills/JavaScript.png" skillImgAlt="JavaScript Logo" skillDescription="Javascript can be used for almsot anything. It is used to make HTML interactive, the backend of a website or just about anything." />
+          <Skill skillName="JavaScript" skillImgPath="./images/skills/Javascript.png" skillImgAlt="JavaScript Logo" skillDescription="Javascript can be used for almsot anything. It is used to make HTML interactive, the backend of a website or just about anything." />
         </div>
 
         <div className="row-two column-one gridItem hidden">
