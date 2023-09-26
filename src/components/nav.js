@@ -1,28 +1,48 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { NavLink } from "react-router-dom";
 
-function Nav() {
+function Nav(props) {
+  /* props
+    currentPage
+  */
+
+  let currentPageIsHome
+  let currentPageIsProjects
+
+  if (props.currentPage === "home") {
+    currentPageIsHome = true
+    currentPageIsProjects = false
+  } else if (props.currentPage === "projects") {
+    currentPageIsProjects = true
+    currentPageIsHome = false
+  }
+
+  useEffect(() => {
+    const test = document.getElementById('nav');
+    window.addEventListener('scroll', function(e) {
+    const scroll = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
+    test.style.opacity = Math.max(0, Math.min(1, -scroll / 300 + 1));
+});
+  })
+  
+
   return (
-    <nav>
-      <NavLink to="/">
-        <img id="myPfpNav" src="../images/pfp.png" alt="My pfp" />
-      </NavLink>
-      <p>
-        <NavLink to="/about-me">
-          ABOUT ME
-        </NavLink>
-      </p>
-      <p>
-        <NavLink to="/projects">
-          PROJECTS
-        </NavLink>
-      </p>
-      <p>
-        <NavLink
-          to="/contact">
-          CONTACT
-        </NavLink>
-      </p>
+    <nav className="nav" id="nav">
+      <div style={{gridColumn: "1", width: "fit-content", height: "fit-content"}}>
+        <h2 style={{textDecoration: "underline", textDecorationColor: "#468189", textDecorationThickness: 10, color: "#FFF", fontSize: "80px", marginBottom: "1%", marginTop: "0", marginRight: "1vw"}}>Ethan</h2>
+
+        <div style={{alignItems: "left", textAlign: "left"}}>
+          <a href="https://replit.com/@not-ethan"><img src="./images/replitLogo.png" alt="Replit Logo" className="nav-logo nav-replit" /></a>
+          <a href="https://github.com/not-a-ethan"><img src="./images/githubLogo.png" alt="Github Logo" className="nav-logo nav-github" /></a>
+          <p style={{display: "inline"}}><img src="./images/discordLogo.svg" alt="Discord Logo" className="nav-logo nav-discord" />not_ethan.</p>
+        </div>
+      </div>
+
+      <div style={{gridColumn: "2", width: "fit-content", height: "auto", top: "2vh", position: "relative"}}>
+        <NavLink to="/" className={currentPageIsHome ? "currentPage nav-link" : "diffrentPage nav-link"}>Home</NavLink>
+        <br />
+        <NavLink to="/projects" className={currentPageIsProjects ? "currentPage nav-link" : "diffrentPage nav-link"}>Projects</NavLink>
+      </div>
     </nav>
   );
 }

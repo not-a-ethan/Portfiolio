@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 
 function Project(props) {
 
@@ -12,15 +12,23 @@ function Project(props) {
     projectGhLink
     side (left or right)
   */
- 
-  const cssTransitionClassNames = []
-  const projectTechs = []
 
-  if (props.side === "left") {
-    cssTransitionClassNames.push("project-projectRight project-hiddenLeft")
-  } else if (props.side === "right") {
-    cssTransitionClassNames.push("project-projectLeft project-hiddenRight")
-  }
+    useEffect(() => {
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("show");
+          } else {
+            entry.target.classList.remove("show");
+          }
+        });
+      })
+  
+      const hiddentElements = document.querySelectorAll(".hidden");
+      hiddentElements.forEach((el) => observer.observe(el));
+    })
+ 
+  const projectTechs = []
 
   props.projectTechs.forEach((tech) => {
     if (tech === 'html') {
@@ -63,8 +71,36 @@ function Project(props) {
 
   console.log(projectTechs)
 
+
   return (
-    <section className={cssTransitionClassNames} id="project-portfolio">
+    <section className="project hidden">
+      <div className='project-img'>
+        <img src={props.projectImgPath} alt={props.projectImgAlt} />
+      </div>
+
+      <div className='project-text'>
+        <h2 className='secondary-text'>
+          {props.projectTitle}
+        </h2>
+
+        <p>
+          {props.projectText}
+        </p>
+
+        <br />
+
+        <a href={props["projectGhLink"]}><img src='./images/githubLogo.png' alt='Github Logo' className='github-project-link' /></a>
+      </div>
+
+      <div className='project-techs'>
+        {projectTechs}
+      </div>
+    </section>
+  )
+
+  /*
+  return (
+    <section id="project-portfolio">
       <h2>{props.projectTitle}</h2>
       <div className="project-imgAndText">
         <div className="project-img">
@@ -86,6 +122,7 @@ function Project(props) {
       </div>
     </section>
   )
+  */
 }
 
 export default Project

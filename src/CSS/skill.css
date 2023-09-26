@@ -1,0 +1,45 @@
+.row-one {
+  grid-row: 1;
+  margin-bottom: 2%;
+}
+
+.row-two {
+  grid-row: 2;
+  margin-bottom: 2%;
+}
+
+.row-three {
+  grid-row: 3;
+}
+
+.column-one {
+  grid-column: 1;
+}
+
+.column-two {
+  grid-column: 2;
+}
+
+.column-three {
+  grid-column: 3;
+}
+
+@media (min-width: 769px) {
+  .skill {
+    width: 25vw;
+  }
+
+  .skill-image {
+    width: 50px;
+    height: 50px;
+    aspect-ratio: 1/1;
+  }
+
+  .skill-name {
+    font-size: 2.5rem;
+  }
+
+  .skill-description {
+    font-size: .825rem;
+  }
+}
