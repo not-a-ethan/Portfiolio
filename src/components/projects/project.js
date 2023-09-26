@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 
 function Project(props) {
 
@@ -12,6 +12,21 @@ function Project(props) {
     projectGhLink
     side (left or right)
   */
+
+    useEffect(() => {
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("show");
+          } else {
+            entry.target.classList.remove("show");
+          }
+        });
+      })
+  
+      const hiddentElements = document.querySelectorAll(".hidden");
+      hiddentElements.forEach((el) => observer.observe(el));
+    })
  
   const projectTechs = []
 
@@ -58,7 +73,7 @@ function Project(props) {
 
 
   return (
-    <section className="project">
+    <section className="project hidden">
       <div className='project-img'>
         <img src={props.projectImgPath} alt={props.projectImgAlt} />
       </div>
@@ -71,6 +86,10 @@ function Project(props) {
         <p>
           {props.projectText}
         </p>
+
+        <br />
+
+        <a href={props["projectGhLink"]}><img src='./images/githubLogo.png' alt='Github Logo' className='github-project-link' /></a>
       </div>
 
       <div className='project-techs'>

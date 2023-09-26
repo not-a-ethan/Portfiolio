@@ -17,6 +17,7 @@ function Home() {
     const hiddentElements = document.querySelectorAll(".hidden");
     hiddentElements.forEach((el) => observer.observe(el));
   })
+  
   return (
     <main id="home" className="main">
       <h1 className="secondary-text hidden">About Me</h1>

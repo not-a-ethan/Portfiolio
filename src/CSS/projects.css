@@ -4,7 +4,7 @@
 
   padding-bottom: 3vh;
 
-  height: 20vh;
+  height: fit-content;
 }
 
 .project-img {
@@ -30,4 +30,17 @@
   max-height: 5vw;
 
   aspect-ratio: 1 / 1;
+}
+
+.github-project-link {
+  max-width: 4vw;
+  max-height: 4vw;
+  aspect-ratio: 1 / 1;
+
+  display: flex;
+  position: relative;
+
+  left: 2vw;
+
+  text-align: left;
 }

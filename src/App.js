@@ -2,7 +2,6 @@ import "./CSS/globle.css";
 import "./CSS/nav.css";
 import "./CSS/home.css";
 import "./CSS/projects.css";
-import "./CSS/contact.css";
 
 import "./CSS/skill.css"
 

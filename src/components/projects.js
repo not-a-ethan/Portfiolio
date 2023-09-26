@@ -1,10 +1,25 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Project from "./projects/project.js";
 
 function Projects() {
+  useEffect(() => {
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("show");
+        } else {
+          entry.target.classList.remove("show");
+        }
+      });
+    })
+
+    const hiddentElements = document.querySelectorAll(".hidden");
+    hiddentElements.forEach((el) => observer.observe(el));
+  })
+
   return (
     <>
-      <header id="project-header" className="main">
+      <header id="project-header" className="main hidden">
         <h1 className="secondary-text">Projects</h1>
 
         <p>Here I will list my best projects I am most proud of. The list will be in <span className="secondary-text">chronological order</span></p>
