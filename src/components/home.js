@@ -71,7 +71,7 @@ function Home() {
         </div>
 
         <div className="row-two column-three gridItem hidden">
-          <Skill skillName="React" skillImgPath="./images/skills/React.png" skillImgAlt="React Logo" skillDescription="React is a Front end web framework and could be used full stack with another frame woork like Next.js or Remix." />
+          <Skill skillName="React" skillImgPath="./images/skills/React.png" skillImgAlt="React Logo" skillDescription="React is a Front end web framework and could be used full stack with another framework like Next.js or Remix." />
         </div>
 
         <div className="row-three column-one gridItem hidden">
