@@ -23,7 +23,7 @@ function Home() {
       <h1 className="secondary-text hidden">About Me</h1>
 
       <p className="hidden">
-        <span className="secondary-text">Hey I'm Ethan</span>. I'm a student that <span className="secondary-text">loves</span> to <span className="secondary-text">Program</span>. I also like doing <span className="secondary-text">Replit<span style={{color: "orange"}}>⠕</span> bounties</span>. I am a moderator on <span className="secondary-text">Replit</span> and <span className="secondary-text">Replit Ask</span>. I am currently on the <span className="secondary-text">East Coast</span> of the <span className="secondary-text">United states</span>.
+        <span className="secondary-text">Hey I'm Ethan</span>. I'm a student that <span className="secondary-text">loves</span> to <span className="secondary-text">Program</span>. I am currently on the <span className="secondary-text">East Coast</span> of the <span className="secondary-text">United states</span>. I <span className="secondary-text">help others</span> with programming <span className="secondary-text">sharing</span> what I have learned over the years with new comers.
       </p>
 
       <hr className="hidden" />
