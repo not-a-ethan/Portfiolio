@@ -33,7 +33,7 @@ const router = createBrowserRouter([
         ),
     },
     {
-        path: "/support",
+        path: "support",
         element: (
             <div>
                 <Nav currentPage="support" />
