@@ -32,7 +32,7 @@ function Nav(props) {
         <h2 style={{textDecoration: "underline", textDecorationColor: "#468189", textDecorationThickness: 10, color: "#FFF", fontSize: "80px", marginBottom: "1%", marginTop: "0", marginRight: "1vw"}}>Ethan</h2>
 
         <div style={{alignItems: "left", textAlign: "left"}}>
-          <a href="https://github.com/not-a-ethan"><img src="./images/githubLogo.png" alt="Github Logo" className="nav-logo nav-github" /></a>
+          <a href="https://github.com/not-a-ethan"><picture alt="Github Logo" className="nav-logo nav-github"><source srcset="./images/githubLogoDark.png" media="(prefers-color-scheme: light)"><img src="./images/githubLogo.png" /></picture></a>
           <p style={{display: "inline"}}><img src="./images/discordLogo.svg" alt="Discord Logo" className="nav-logo nav-discord" />not_ethan.</p>
         </div>
       </div>
