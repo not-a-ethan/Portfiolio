@@ -19,6 +19,15 @@
   color: #468189;
 }
 
-.currentPage {
-  color: #FFF;
+
+@media (prefers-color-scheme: light) {
+  .secondary-text {
+    color: #000;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .secondary-text {
+    color: #FFF;
+  }
 }
