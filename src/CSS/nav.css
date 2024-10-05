@@ -1,3 +1,11 @@
+:root {
+  --currentPage-color-dark: #FFF;
+  --currentPage-color-light: #000;
+
+  --name-logo-color-light: #000;
+  --name-logo-color-dark: #FFF;
+}
+
 .nav {
   display: inline-grid;
   height: fit-content;
@@ -19,6 +27,24 @@
   color: #468189;
 }
 
-.currentPage {
-  color: #FFF;
+
+@media (prefers-color-scheme: light) {
+  .currentPage {
+    color: var(--currentPage-color-light);
+  }
+
+  .name-logo {
+    color: var(--name-logo-color-light);
+  }
 }
+
+@media (prefers-color-scheme: dark) {
+  .currentPage {
+    color: var(--currentPage-color-dark);
+  }
+
+  .name-logo {
+    color: var(--name-logo-color-dark);
+  }
+}
+
