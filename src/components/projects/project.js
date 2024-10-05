@@ -89,7 +89,7 @@ function Project(props) {
 
         <br />
 
-        <a href={props["projectGhLink"]}><picture><source srcset="./images/githubLogoDark.png" media="(prefers-color-scheme: light)"><img src="./images/githubLogo.png" alt="Github Logo" className="github-project-link"/></picture></a>
+        <a href={props["projectGhLink"]}><picture className="github-project-link"><source srcset="./images/githubLogoDark.png" media="(prefers-color-scheme: light)"><img src="./images/githubLogo.png" alt="Github Logo"/></picture></a>
       </div>
 
       <div className='project-techs'>
