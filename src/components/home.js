@@ -75,7 +75,7 @@ function Home() {
         </div>
 
         <div className="row-three column-one gridItem hidden">
-          <Skill skillName="Github" skillImgPath="./images/skills/Github.png" skillImgAlt="Github Logo" skillDescription="Github is version control in the web that uses Git. It is also used to host code and open sourse projects." />
+          <Skill skillName="Github" skillImgPath="./images/skills/Github.png" skillImgAlt="Github Logo" skillDescription="Github is version control in the web that uses Git. It is also used to host code and open source projects." />
         </div>
 
         <div className="row-three column-two gridItem hidden">
