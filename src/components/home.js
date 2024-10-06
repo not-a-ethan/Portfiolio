@@ -59,7 +59,7 @@ function Home() {
         </div>
 
         <div className="row-one column-three gridItem hidden">
-          <Skill skillName="JavaScript" skillImgPath="./images/skills/Javascript.png" skillImgAlt="JavaScript Logo" skillDescription="Javascript can be used for almsot anything. It is used to make HTML interactive, the backend of a website or just about anything." />
+          <Skill skillName="JavaScript" skillImgPath="./images/skills/Javascript.png" skillImgAlt="JavaScript Logo" skillDescription="Javascript can be used for almost anything. It is used to make HTML interactive, the backend of a website or just about anything." />
         </div>
 
         <div className="row-two column-one gridItem hidden">
@@ -75,7 +75,7 @@ function Home() {
         </div>
 
         <div className="row-three column-one gridItem hidden">
-          <Skill skillName="Github" skillImgPath="./images/skills/Github.png" skillImgAlt="Github Logo" skillDescription="Github is version control in the web that uses Git. It is also used to host code and open sourse projects." />
+          <Skill skillName="Github" skillImgPath="./images/skills/Github.png" skillImgAlt="Github Logo" skillDescription="Github is version control in the web that uses Git. It is also used to host code and open source projects." />
         </div>
 
         <div className="row-three column-two gridItem hidden">

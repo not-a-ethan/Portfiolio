@@ -30,7 +30,7 @@ function Projects() {
           projectImgPath="./images/portfolio.png" 
           projectImgAlt="Screenshot of the Home page of this website" 
           projectTitle="My portfolio (this website)" 
-          projectText="My protfolio website is this very site you are looking at right now.This site contains my biggest projects and the ones I am most proud of such as Coin Catalog.It also tells you and others how to contact me and a little about myself." 
+          projectText="My protfolio website is this very site you are looking at right now. This site contains my biggest projects and the ones I am most proud of such as Coin Catalog. It also tells you and others how to contact me and a little about myself." 
           projectGhLink="https://github.com/not-a-ethan/Portfiolio" 
           projectTechs={["react", "css"]} 
           side="right" 
