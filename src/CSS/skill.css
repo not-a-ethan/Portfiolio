@@ -24,6 +24,11 @@
   grid-column: 3;
 }
 
+.skill > p {
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
 @media (min-width: 769px) {
   .skill {
     width: 25vw;
