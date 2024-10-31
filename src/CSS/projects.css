@@ -1,6 +1,7 @@
 .project {
   display: grid;
   gap: 2vw;
+  grid-template-columns: 3.25fr 15fr;
 
   padding-bottom: 3vh;
 

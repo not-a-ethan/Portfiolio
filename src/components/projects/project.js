@@ -66,6 +66,11 @@ function Project(props) {
           <br />
         </>
       )
+    } else if (tech === "sql") {
+      <>
+        <img src="./images/skills/SQL.png" alt="SQL Logo" key="sql" />
+        <br />
+      </>
     }
   });
 

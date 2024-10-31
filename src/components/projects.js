@@ -45,6 +45,16 @@ function Projects() {
           projectTechs={["next", "css"]} 
           side="left" 
         />
+
+        <Project 
+          projectImgPath="./images/time-tracker.png" 
+          projectImgAlt="A screenshot from the home page the time tracker" 
+          projectTitle="Time Tracker" 
+          projectText="Time Tracker is a Next.js project that tracks your time. You can create multiple projects with time entries in each project. You can also delete projects and time entries along with other features." 
+          projectGhLink="https://github.com/not-a-ethan/time-tracker" 
+          projectTechs={["next", "css", "sql"]} 
+          side="right" 
+        />
       </main>
     </>
   );
