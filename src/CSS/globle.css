@@ -52,17 +52,24 @@
   overflow-x: hidden;
 }
 
-.hidden {
+.hidden-left {
   opacity: 0;
   filter: blur(5px);
   transform: translateX(-100%);
   transition: all 1s;
 }
 
+.hidden-right {
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateX(100%);
+  transition: all 1s;
+}
+
 .show {
   opacity: 1;
   filter: blur(0);
-  transform: translateX(0);
+  transform: translateX(0%);
 }
 
 .gridItem:nth-child(3n+1) {
@@ -78,7 +85,11 @@
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .hidden {
+  .hidden-left {
+    transition: none;
+  }
+
+  .hidden-right {
     transition: none;
   }
 }

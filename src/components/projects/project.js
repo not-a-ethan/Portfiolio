@@ -13,20 +13,21 @@ function Project(props) {
     side (left or right)
   */
 
-    useEffect(() => {
-      const observer = new IntersectionObserver((entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            entry.target.classList.add("show");
-          } else {
-            entry.target.classList.remove("show");
-          }
-        });
-      })
-  
-      const hiddentElements = document.querySelectorAll(".hidden");
-      hiddentElements.forEach((el) => observer.observe(el));
+  useEffect(() => {
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        console.log(entry)
+        if (entry.isIntersecting) {
+          entry.target.classList.add("show");
+        } else {
+          entry.target.classList.remove("show");
+        }
+      });
     })
+
+    const hiddentElements = document.querySelectorAll(".hidden");
+    hiddentElements.forEach((el) => observer.observe(el));
+  })
  
   const projectTechs = []
 
@@ -67,18 +68,17 @@ function Project(props) {
         </>
       )
     } else if (tech === "sql") {
-      <>
-        <img src="./images/skills/SQL.png" alt="SQL Logo" key="sql" />
-        <br />
-      </>
+      projectTechs.push(
+        <>
+          <img src="./images/skills/SQL.png" alt="SQL Logo" key="sql" />
+          <br />
+        </>
+      )
     }
   });
 
-  console.log(projectTechs)
-
-
   return (
-    <section className="project hidden">
+    <section className={`project hidden ${props.side === 'left' ? 'hidden-left' : 'hidden-right'}`}>
       <div className='project-img'>
         <img src={props.projectImgPath} alt={props.projectImgAlt} />
       </div>
@@ -94,7 +94,7 @@ function Project(props) {
 
         <br />
 
-        <a href={props["projectGhLink"]}><picture className="github-project-link"><source srcset="./images/githubLogoDark.png" media="(prefers-color-scheme: light)" /><img src="./images/githubLogo.png" alt="Github Logo"/></picture></a>
+        <a href={props["projectGhLink"]}><picture className="github-project-link"><source srcSet="./images/githubLogoDark.png" media="(prefers-color-scheme: light)" /><img src="./images/githubLogo.png" alt="Github Logo"/></picture></a>
       </div>
 
       <div className='project-techs'>

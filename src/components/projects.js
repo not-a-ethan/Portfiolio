@@ -55,6 +55,16 @@ function Projects() {
           projectTechs={["next", "css", "sql"]} 
           side="right" 
         />
+
+        <Project 
+          projectImgPath="./images/chat-app.png" 
+          projectImgAlt="A screenshot from the home page the chat app" 
+          projectTitle="Chat app" 
+          projectText="This project has the same basic concept as other sites such as Discord. This project lets people chat (with text) on a website. Users can create multiple rooms and invite and remove users from each room independently. Users can also modfiy details of their account such as username, password and profile picture."
+          projectGhLink="https://github.com/not-a-ethan/chat-app" 
+          projectTechs={["next", "css", "sql"]} 
+          side="left" 
+        />
       </main>
     </>
   );
