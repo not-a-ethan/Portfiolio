@@ -16,7 +16,7 @@ function Home() {
 
     const hiddentElements = document.querySelectorAll(".hidden");
     hiddentElements.forEach((el) => observer.observe(el));
-  })
+  });
   
   return (
     <main id="home" className="main">
@@ -46,8 +46,12 @@ function Home() {
         After that in 2024 I learned <span className="secondary-text">SQL</span> and improving my <span className="secondary-text">Next.js</span> skills as part of my journey of learning <span className="secondary-text">backend webdev</span>.
       </p>
 
-      <p className="secondary-text hidden hidden-left">Check out what I've learned</p>
-      <p style={{fontSize: 50, margin: 10}} className="hidden" >&#8595;</p>
+      <p className="hidden hidden-left">
+        currently I am making full stack web apps to practice my skills. I want to get a internship for this summer and hopefully a job in the next few years.
+      </p>
+
+      <p className="secondary-text hidden hidden-right">Check out what I've learned</p>
+      <p style={{fontSize: 50, margin: 10}} className="hidden hidden-right" >&#8595;</p>
 
       <div style={{display: "grid"}}>
         <div className="row-one column-one gridItem hidden hidden-left">
@@ -84,6 +88,6 @@ function Home() {
       </div> 
     </main>
   );
-}
+};
 
 export default Home;

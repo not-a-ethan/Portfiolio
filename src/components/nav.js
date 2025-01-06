@@ -6,26 +6,25 @@ function Nav(props) {
     currentPage
   */
 
-  let currentPageIsHome
-  let currentPageIsProjects
+  let currentPageIsHome = false;
+  let currentPageIsProjects = false;
 
   if (props.currentPage === "home") {
-    currentPageIsHome = true
-    currentPageIsProjects = false
+    currentPageIsHome = true;
+    currentPageIsProjects = false;
   } else if (props.currentPage === "projects") {
-    currentPageIsProjects = true
-    currentPageIsHome = false
-  }
+    currentPageIsProjects = true;
+    currentPageIsHome = false;
+  };
 
   useEffect(() => {
     const test = document.getElementById('nav');
     window.addEventListener('scroll', function(e) {
-    const scroll = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
-    test.style.opacity = Math.max(0, Math.min(1, -scroll / 300 + 1));
-});
-  })
+      const scroll = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
+      test.style.opacity = Math.max(0, Math.min(1, -scroll / 300 + 1));
+    });
+  });
   
-
   return (
     <nav className="nav" id="nav">
       <div style={{gridColumn: "1", width: "fit-content", height: "fit-content"}}>
@@ -44,6 +43,6 @@ function Nav(props) {
       </div>
     </nav>
   );
-}
+};
 
 export default Nav;
