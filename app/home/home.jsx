@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
 
-import Skill from "./home/skill";
+import Skill from "./skill.jsx";
 
-function Home() {
+export function HomeComponent() {
   useEffect(() => {
     const observer = new IntersectionObserver((entries) => {
       entries.forEach((entry) => {
@@ -55,39 +55,37 @@ function Home() {
 
       <div style={{display: "grid"}}>
         <div className="row-one column-one gridItem hidden hidden-left">
-          <Skill skillName="HTML" skillImgPath="./images/skills/HTML.png" skillImgAlt="HTML Logo" skillDescription="HTML is the a languge to build the front end of a webpage." />
+          <Skill skillName="HTML" skillImgPath="/images/skills/HTML.png" skillImgAlt="HTML Logo" skillDescription="HTML is the a languge to build the front end of a webpage." />
         </div>
 
         <div className="row-one column-two gridItem hidden hidden-left">
-          <Skill skillName="CSS" skillImgPath="./images/skills/CSS.png" skillImgAlt="CSS Logo" skillDescription="CSS is used to style HTML to make it look good." />
+          <Skill skillName="CSS" skillImgPath="/images/skills/CSS.png" skillImgAlt="CSS Logo" skillDescription="CSS is used to style HTML to make it look good." />
         </div>
 
         <div className="row-one column-three gridItem hidden hidden-left">
-          <Skill skillName="JavaScript" skillImgPath="./images/skills/Javascript.png" skillImgAlt="JavaScript Logo" skillDescription="Javascript can be used for almost anything. It is used to make HTML interactive, the backend of a website or just about anything." />
+          <Skill skillName="JavaScript" skillImgPath="/images/skills/Javascript.png" skillImgAlt="JavaScript Logo" skillDescription="Javascript can be used for almost anything. It is used to make HTML interactive, the backend of a website or just about anything." />
         </div>
 
         <div className="row-two column-one gridItem hidden hidden-right">
-          <Skill skillName="TypeScript" skillImgPath="./images/skills/TypeScript.png" skillImgAlt="TypeScript Logo" skillDescription="Javascript but with declared types" />
+          <Skill skillName="TypeScript" skillImgPath="images/skills/TypeScript.png" skillImgAlt="TypeScript Logo" skillDescription="Javascript but with declared types" />
         </div>
 
         <div className="row-two column-two gridItem hidden hidden-right">
-          <Skill skillName="SQL" skillImgPath="./images/skills/SQL.png" skillImgAlt="SQL Logo" skillDescription="SQL is used to interact with databses. From reading to writing to databases." />
+          <Skill skillName="SQL" skillImgPath="/images/skills/SQL.png" skillImgAlt="SQL Logo" skillDescription="SQL is used to interact with databses. From reading to writing to databases." />
         </div>
 
         <div className="row-two column-three gridItem hidden hidden-right">
-          <Skill skillName="React" skillImgPath="./images/skills/React.png" skillImgAlt="React Logo" skillDescription="React is a Front end web framework and could be used full stack with another framework like Next.js or Remix." />
+          <Skill skillName="React" skillImgPath="/images/skills/React.png" skillImgAlt="React Logo" skillDescription="React is a Front end web framework and could be used full stack with another framework like Next.js or Remix." />
         </div>
 
         <div className="row-three column-one gridItem hidden hidden-left">
-          <Skill skillName="Github" skillImgPath="./images/skills/Github.png" skillImgAlt="Github Logo" skillDescription="Github is version control in the web that uses Git. It is also used to host code and open source projects." />
+          <Skill skillName="Github" skillImgPath="/images/skills/Github.png" skillImgAlt="Github Logo" skillDescription="Github is version control in the web that uses Git. It is also used to host code and open source projects." />
         </div>
 
         <div className="row-three column-two gridItem hidden hidden-left">
-          <Skill skillName="Next.js" skillImgPath="./images/skills/Nextjs.png" skillImgAlt="Next.js Logo" skillDescription="Next.js is a full stack web framework that uses React." />
+          <Skill skillName="Next.js" skillImgPath="/images/skills/Nextjs.png" skillImgAlt="Next.js Logo" skillDescription="Next.js is a full stack web framework that uses React." />
         </div>
       </div> 
     </main>
   );
 };
-
-export default Home;

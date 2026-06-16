@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
-import { NavLink } from "react-router-dom";
+// import { NavLink } from "react-router-dom";
 
-function Nav(props) {
+export default function Nav(props: any) {
   /* props
     currentPage
   */
@@ -18,7 +18,7 @@ function Nav(props) {
   };
 
   useEffect(() => {
-    const test = document.getElementById('nav');
+    const test: any = document.getElementById('nav');
     window.addEventListener('scroll', function(e) {
       const scroll = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
       test.style.opacity = Math.max(0, Math.min(1, -scroll / 300 + 1));
@@ -37,12 +37,10 @@ function Nav(props) {
       </div>
 
       <div style={{gridColumn: "2", width: "fit-content", height: "auto", top: "2vh", position: "relative"}}>
-        <NavLink to="/" className={currentPageIsHome ? "currentPage nav-link" : "diffrentPage nav-link"}>Home</NavLink>
+        <a href="/" className={currentPageIsHome ? "currentPage nav-link" : "diffrentPage nav-link"}>Home</a>
         <br />
-        <NavLink to="/projects" className={currentPageIsProjects ? "currentPage nav-link" : "diffrentPage nav-link"}>Projects</NavLink>
+        <a href="/projects" className={currentPageIsProjects ? "currentPage nav-link" : "diffrentPage nav-link"}>Projects</a>
       </div>
     </nav>
   );
 };
-
-export default Nav;

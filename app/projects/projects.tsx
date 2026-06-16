@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
-import Project from "./projects/project.js";
+import Project from "./project.js";
 
-function Projects() {
+export default function ProjectsComponent() {
   useEffect(() => {
     const observer = new IntersectionObserver((entries) => {
       entries.forEach((entry) => {
@@ -69,5 +69,3 @@ function Projects() {
     </>
   );
 };
-
-export default Projects;

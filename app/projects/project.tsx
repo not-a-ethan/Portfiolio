@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 
-function Project(props) {
+function Project(props: any) {
 
   /*
     props
@@ -29,9 +29,9 @@ function Project(props) {
     hiddentElements.forEach((el) => observer.observe(el));
   })
  
-  const projectTechs = [];
+  const projectTechs: any = [];
 
-  props.projectTechs.forEach((tech) => {
+  props.projectTechs.forEach((tech: any) => {
     if (tech === 'html') {
       projectTechs.push(
         <>
