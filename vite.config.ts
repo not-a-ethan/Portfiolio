@@ -9,6 +9,7 @@ export default defineConfig({
     tsconfigPaths: true,
   },
   build: {
-    outDir: path.join(__dirname, "_static")
-  }
+    outDir: path.join(__dirname, "_static"),
+  },
+  base: "/"
 });
