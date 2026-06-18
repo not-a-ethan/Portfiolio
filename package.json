@@ -4,10 +4,7 @@
   "type": "module",
   "scripts": {
     "build": "vite build",
-    "dev": "react-router dev",
-    "start": "react-router-serve ./build/server/index.js",
-    "preview": "vite preview --port 443",
-    "typecheck": "react-router typegen && tsc"
+    "preview": "vite preview"
   },
   "dependencies": {
     "@react-router/node": "7.16.0",
